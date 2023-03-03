@@ -1,0 +1,4 @@
+/node_modules
+.env
+DATABASE_URL =mongodb+srv://PeaceofGod:peaceofgod@cluster0.0gqnw.mongodb.net/Chat-app?retryWrites=true&w=majority
+SECRET_TOKEN = sohelpmegodamen
