@@ -7,4 +7,6 @@ const config = {
   dbUrl: process.env.DATABASE_URL || "",
   jwtSecret: process.env.SECRET_TOKEN || "",
 };
+
+
 module.exports = config
