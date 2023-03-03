@@ -8,25 +8,25 @@
     "dev": "nodemon --exec babel-node index.js"
   },
   "dependencies": {
-    "@babel/cli": "^7.17.6",
-    "@babel/core": "^7.17.7",
-    "@babel/node": "^7.16.8",
-    "bcrypt": "^5.1.0",
+    "@babel/cli": "^7.17.0",
+    "@babel/core": "^7.17.0",
+    "@babel/node": "^7.17.0",
+    "bcrypt": "^5.1.1",
     "cors": "^2.8.5",
-    "dotenv": "^16.0.0",
-    "eslint": "^8.11.0",
+    "dotenv": "^10.0.0",
+    "eslint": "^8.3.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "express": "^4.17.3",
     "express-async-errors": "^3.1.1",
     "express-rate-limit": "^6.7.0",
-    "joi": "^17.8.3",
-    "jsonwebtoken": "^9.0.0",
-    "mongoose": "^7.0.0",
+    "joi": "^17.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.12",
     "nodemon": "^2.0.15",
     "socket.io": "^4.4.1"
   },
   "devDependencies": {
-    "@babel/preset-env": "^7.20.2"
+    "@babel/preset-env": "^7.17.0"
   },
   "description": "A socket.io chat application",
   "repository": "https://github.com/Ugochidev/chatAPP.git",
