@@ -14,8 +14,7 @@ if (
   newUserPass == "superadmin"
 ) {
   alert("Welcome");
-  // socket = io.connect("https://ugochidev-web.herokuapp.com/");
-  socket = io.connect("localhost:3413");
+  socket = io.connect("https://chatapp-blw4.onrender.com");
 } else {
   alert("Wrong Password");
   const chat = document.getElementById("ugochidev");

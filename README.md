@@ -13,7 +13,7 @@ Installation
 Clone the repository
 bash
 Copy code
-git clone https://github.com/your-username/group-chat-system.git
+git clone https://github.com/Ugochidev/chatAPP
 cd group-chat-system
 Install the dependencies
 bash
@@ -23,7 +23,7 @@ Start the server
 bash
 Copy code
 npm start
-Access the chat system at http://localhost:3413
+Access the chat system at https://chatapp-blw4.onrender.com
 Usage
 Register a user by clicking the "Register" button and filling in the required fields (username, email, and password).
 
