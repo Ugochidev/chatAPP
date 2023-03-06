@@ -1,9 +1,4 @@
 // make connection
-let newUserEmail = prompt("App locked, Please input App Email.").toLowerCase();
-if (newUserEmail !== "admin@gmail.com") {
-  alert("Wrong Email");
-  newUserEmail = prompt("App locked, Please input App Email.").toLowerCase();
-}
 let newUserPass = prompt(
   "App locked, Please input App Password."
 ).toLowerCase();
