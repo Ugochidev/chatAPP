@@ -1,12 +1,13 @@
 const express = require("express");
+const mongoose = require("mongoose");
 require("express-async-errors");
 const rateLimit = require("express-rate-limit");
 const cors = require("cors");
-const authRoute = require("./routes/auth.route")
-const userRoute = require("./routes/user.route")
+const authRoute = require("./routes/auth.route");
+const userRoute = require("./routes/user.route");
 
 const app = express();
-
+mongoose.set("strictQuery", false);
 const limiter = rateLimit({
   windowMs: 1000, // 1 seconds
   max: 2, // Limit each IP to 2 requests per `window` (here, per 15 seconds)
@@ -26,8 +27,7 @@ app.get("/", async (request, response) => {
   });
 });
 
-
 app.use("/api/v1/auth", authRoute);
-app.use("/api/v1/user", userRoute)
+app.use("/api/v1/user", userRoute);
 
 module.exports = async () => app;

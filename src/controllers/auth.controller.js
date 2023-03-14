@@ -29,7 +29,7 @@ const createUser = async (req, res, next) => {
       lastName,
       userName,
       email,
-      password: hashPassword,
+      password,
     });
     newUser.set("password", undefined);
     return res.status(201).json({
